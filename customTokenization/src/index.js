@@ -25,23 +25,6 @@ class Tokenizer {
     return tokenized.map((token) => this.decodeToken(token)).join(" ");
   }
 }
-  // Custom Tokenizer Implementation and Demo
-
-  function customTokenizer(text) {
-    // Simple tokenizer: split by spaces and punctuation
-    return text.match(/\b\w+\b/g) || [];
-  }
-
-  // Demo usage
-  const sampleText = "Hello, world! This is a custom tokenizer demo.";
-  const tokens = customTokenizer(sampleText);
-
-  console.log("Input text:", sampleText);
-  console.log("Tokens:", tokens);
-
-  // Export for potential future use
-  module.exports = { customTokenizer };
-
 const text = "Hello world!! I am from GenAi Js batch 1";
 const tokenizer = new Tokenizer();
 const tokenized = tokenizer.tokenize(text);
