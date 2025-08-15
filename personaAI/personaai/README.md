@@ -15,5 +15,8 @@ Two-persona chatbot with a modern black/white UI, shuttle animation when switchi
 - React 19
 - Tailwind CSS v4 (via `@tailwindcss/postcss`)
 
+[Project Live Link](https://gen-ai-lilac-six.vercel.app/frontend)
+
+![Deployment Window](/personaAI/personaai/PersonAI.png "Persona Ai")
 
 
