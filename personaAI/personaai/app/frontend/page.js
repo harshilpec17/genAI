@@ -200,9 +200,7 @@ export default function PersonaChat() {
               <span className="absolute inset-0 bg-white/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
             </button>
           </div>
-          <p className="mt-2 text-[10px] text-white/40">
-            Set OPENAI_API_KEY in your environment. Keys are never exposed to the browser.
-          </p>
+        
         </div>
       </div>
     </div>
